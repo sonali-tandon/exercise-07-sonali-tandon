@@ -45,76 +45,17 @@ footer {
 @media only screen and (max-width: 1200px) {
     body {
         background-image: url("/img/splash-lg.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-        margin: 0.5rem;
-        color: white;
-    }
-
-    #social-links a {
-        display: inline-block;
-        color: white;
-        font-size: 1.5rem;
-        padding-right: 0.5em;
-
-    }
-
-    #hamburger-menu a {
-        display: none;
-    }
-
-    main {
-        text-align: center;
-        font-family: 'Kaushan Script', 'fantasy';
-        margin-top: 23vh;
-        text-shadow: 1px 1px #153c43;
-    }
-
-    h1 {
-        font-size: 5rem;
-    }
-
-    h2 {
-        font-size: 3rem;
-        margin-top: 2em;
-    }
-
-    footer {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        right: 0;
     }
 }
 
 @media only screen and (max-width: 992px) {
     body {
         background-image: url("/img/splash-md.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-        margin: 0.5rem;
-        color: white;
     }
 
     #social-links a {
-        display: inline-block;
-        color: white;
         font-size: 2.5rem;
-        padding-right: 0.5em;
 
-    }
-
-    #hamburger-menu a {
-        display: none;
-    }
-
-    main {
-        text-align: center;
-        font-family: 'Kaushan Script', 'fantasy';
-        margin-top: 23vh;
-        text-shadow: 1px 1px #153c43;
     }
 
     h1 {
@@ -123,50 +64,22 @@ footer {
 
     h2 {
         font-size: 2rem;
-        margin-top: 2em;
-    }
-
-    footer {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        right: 0;
     }
 }
 
 @media only screen and (max-width: 768px) {
 
     body {
-        margin: 0.5rem;
         background-color: #93b8d7;
-        color: white;
+        background-image: none;
     }
 
     #social-links a {
-        display: inline-block;
-        color: white;
         font-size: 2.5rem;
-        padding-right: 0.5em;
-
-    }
-
-    #hamburger-menu a {
-        display: none;
     }
 
     main {
-        text-align: center;
-        font-family: 'Kaushan Script', 'fantasy';
-        margin-top: 23vh;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-        margin-top: 2em;
+        text-shadow: none;
     }
 
     footer {
@@ -176,12 +89,6 @@ footer {
 
 @media only screen and (max-width: 598px) {
 
-    body {
-        margin: 0.5rem;
-        background-color: #93b8d7;
-        color: white;
-    }
-
     #hamburger-menu a {
         color: white;
         font-size: 2.5rem;
@@ -189,28 +96,6 @@ footer {
     }
 
     #social-links a {
-        color: white;
-        font-size: 2.5rem;
-        padding-right: 0.5em;
-        display: none;
-    }
-
-    main {
-        text-align: center;
-        font-family: 'Kaushan Script', 'fantasy';
-        margin-top: 23vh;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-        margin-top: 2em;
-    }
-
-    footer {
         display: none;
     }
 }
