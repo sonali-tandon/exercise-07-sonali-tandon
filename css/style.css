@@ -1,5 +1,5 @@
 body {
-    background-image: url("/img/splash-xl.jpg");
+    background-image: url("img/splash-xl.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -44,13 +44,13 @@ footer {
 
 @media only screen and (max-width: 1200px) {
     body {
-        background-image: url("/img/splash-lg.jpg");
+        background-image: url("img/splash-lg.jpg");
     }
 }
 
 @media only screen and (max-width: 992px) {
     body {
-        background-image: url("/img/splash-md.jpg");
+        background-image: url("img/splash-md.jpg");
     }
 
     #social-links a {
